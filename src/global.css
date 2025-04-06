@@ -39,13 +39,14 @@ html,
 body {
   height: 100%;
   width: 100%;
+    background-color: #272E33;
 }
 
 body {
   line-height: 1.5;
   font-weight: 400;
   font-size: 16px;
-  color: #1a1a1a;
+    color: #D3c6aa
 }
 
 h1,
@@ -59,10 +60,10 @@ h6 {
 }
 
 a {
-  color: #444444;
+  color: #D3C6AA;
 }
 a:hover {
-  color: #888888;
+  background: #493B40;
 }
 
 button {
@@ -95,15 +96,16 @@ textarea {
 /* Update url-input width to be 100% since container will control max width */
 .url-input {
   padding: 8px 12px;
-  border: 1px solid #ddd;
+  border: 1px solid #D3c6aa;
   border-radius: 4px;
   width: 100%;
-  background: #f5f5f5;
+  background: #272e33;
+  color: #D3C6AA;
 }
 
 .copy-button {
   padding: 8px;
-  color: #666;
+  color: #D3C6AA;
   border-radius: 4px;
   transition: all 0.2s;
   display: flex;
@@ -112,11 +114,11 @@ textarea {
 }
 
 .copy-button:hover {
-  background: #f0f0f0;
+  background: #493B40;
 }
 
 .copy-button:active {
-  background: #e5e5e5;
+  background: #493B40;
 }
 
 .copy-button img {
@@ -125,7 +127,7 @@ textarea {
 }
 
 .copy-button.copied {
-  background: #28a745;
+  background: #A7C080;
 }
 
 /* Add footer styles */
@@ -136,15 +138,14 @@ textarea {
   right: 0;
   text-align: center;
   font-size: 14px;
-  color: #666;
+  color: #D3C6AA;
 }
 
 .footer a {
-  color: #666;
   text-decoration: none;
   font-weight: 500;
 }
 
 .footer a:hover {
-  color: #333;
+    background: #493B40;
 }
